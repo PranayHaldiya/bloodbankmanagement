@@ -1,1 +1,1 @@
-web: waitress-serve --port=${PORT:-8000} bloodbankmanagement.wsgi:application
+web: gunicorn bloodbankmanagement.wsgi:application --log-file -
