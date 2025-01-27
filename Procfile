@@ -1,1 +1,1 @@
-web: gunicorn bloodbankmanagement.wsgi:application --log-file -
+web: gunicorn bloodbankmanagement.wsgi:application
